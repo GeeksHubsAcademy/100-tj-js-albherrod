@@ -5,11 +5,11 @@ function geekshubs(index) {
     for(i=1; i<=iterador; i++){
         if(i%3 == 0 && i%5 == 0){
             console.log("GeeksHubs");
-            print = print + "GeeksHubs \n";
+            print = print + "GeeksHubs\n";
         }else{
             if(i%5 == 0){
                 console.log("Hubs");
-                print = print + "Hubs \n";
+                print = print + "Hubs\n";
             }else{
                 if(i%3 == 0){
                     console.log("Geeks");
